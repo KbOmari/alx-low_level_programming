@@ -12,20 +12,15 @@
 int main(void)
 
 {
-	int intergerType;
-	float floatType;
-	double doubleType;
-	char charType;
+	printf("Size of int: %ld bytes\n", sizeof(int));
 
-	// Sizeof operator is used to evaluate the size of a variable
+	printf("Size of long int: %ld bytes\n", sizeof(long int));
 
-	printf("Size of int: %ld bytes\n",sizeof(integerType));
+	printf("Size of double: %ld bytes\n", sizeof(long long int));
 
-	printf("Size of float: %ld bytes\n",sizeof(floatType));
+	printf("Size of float: %ld bytes\n", sizeof(float));
 
-	printf("Size of double: %ld bytes\n",sizeof(doubleType));
-
-	printf("Size of char: %ld bytes\n",sizeof(charType));
+	printf("Size of char: %ld bytes\n", sizeof(char));
 
 	return (0);
 }
