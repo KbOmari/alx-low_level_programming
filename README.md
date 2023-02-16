@@ -1,0 +1,1 @@
+For this project, I am going to be tackling low level programming tasks.
