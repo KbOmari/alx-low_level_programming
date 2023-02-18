@@ -22,9 +22,6 @@ int main(void)
 
 	}
 
-	return (0);
-
-
 
 	for (c = 'A'; c <= 'Z'; c++)
 
