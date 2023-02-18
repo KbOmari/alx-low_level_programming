@@ -22,10 +22,10 @@ int main(void)
 	scanf("%d", &n);
 	last_digit = n % 10;
 
-	if (n > 5)
+	if (last_digit > 5)
 	printf("Last digit of %d is %d and is greater than 5", n, last_digit);
 
-	else if (n == 0)
+	else if (last_digit == 0)
 	printf("Last digit of %d is %d and is 0", n, last_digit);
 
 	else
