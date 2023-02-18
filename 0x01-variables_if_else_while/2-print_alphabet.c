@@ -13,11 +13,10 @@
 int main(void)
 {
 	char c;
-	char result;
 
 	for (c = 'a'; c <= 'z'; ++c)
-	result = tolower(c);
 
-	printf("tolower(%c) = %c\n", c, result);
+	putchar (c);
+	putchar ('\n');
 	return (0);
 }
