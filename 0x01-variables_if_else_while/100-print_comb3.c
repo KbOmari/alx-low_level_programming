@@ -9,29 +9,31 @@
 
 
 int main(void)
-
 {
-	int x, i;
+	int i, j, k;
 
-	for (x = 0; x < 9; x++)
+	i = 0;
 
+	while (i < 100)
 	{
-	for (i = x + 1; i < 10; i++)
+		j = i % 10; /* singles digit */
+		k = i / 10; /* doubles digit */
 
-	{
-	putchar((x % 10) + '0');
-	putchar((i % 10) + '0');
+		if (k < j)
+		{
+			putchar(k + '0');
+			putchar(j + '0');
 
+			if (i < 89)
+			{
+				putchar(44);
+				putchar(32);
+			}
+		}
 
-
-	putchar(',');
-
-	putchar(' ');
+		i++;
 	}
-
-	}
-			
 	putchar('\n');
-	return (0);
 
+	return (0);
 }
