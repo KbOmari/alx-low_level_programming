@@ -2,6 +2,8 @@
 /**
  *_islower - entry point
  *
+ *@c: character to be checked
+ *
  *Description: Program that checks for lowercase character
  *
  *Return: (results)

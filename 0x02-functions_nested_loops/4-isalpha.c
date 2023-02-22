@@ -2,6 +2,8 @@
 /**
  *_isalpha - entry point
  *
+ *@c: the characters to be checked
+ *
  *Description: Checks for alphabetic character
  *
  *Return: 1 if character is a letter,0 if otherwise

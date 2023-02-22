@@ -3,6 +3,8 @@
 /**
  * print_sign - Entry point
  *
+ *@n: this is the sign's number
+ *
  * Description: prints the sign of a number
  *
  * Return: 1 if n > 0, 0 if n == 0, -1 if n < 0
