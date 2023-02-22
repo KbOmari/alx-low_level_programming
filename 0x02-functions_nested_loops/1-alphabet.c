@@ -5,24 +5,21 @@
  *
  * Description: A function that prints lowercase alphabets, followed by new line
  *
- * Return: void
  */
 
-void print_alphabet(void)
 
+void print_alphabet(void)
 {
 
-	char letter = 'a';
+	char letter;
 
 
-	while (letter <= 'z')
+	for (letter = 'a'; letter <= 'z'; letter++)
 
 	{
 		_putchar(letter);
-		letter++;
-
+		_putchar('\n');
 
 	}
-		_putchar('\n');
 
 }
