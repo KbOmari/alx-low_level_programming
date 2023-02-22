@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_alphabet_x10 - Entry point
@@ -8,7 +7,8 @@
  *
  * Return: void
  */
-int main(void)
+void print_alphabet_x10(void)
+
 {
 	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
 	int len = 26;
