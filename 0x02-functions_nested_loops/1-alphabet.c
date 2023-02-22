@@ -2,20 +2,27 @@
 
 /**
  * print_alphabet - Entry point
- * Description: a function that prints the alphabet,
- * in lowecase followed by a new line
+ *
+ * Description: A function that prints lowercase alphabets, followed by new line
+ *
  * Return: void
  */
 
 void print_alphabet(void)
 
 {
+
 	char letter = 'a';
 
+
 	while (letter <= 'z')
+
 	{
 		_putchar(letter);
 		letter++;
+
+
 	}
-	_putchar('\n');
+		_putchar('\n');
+
 }
