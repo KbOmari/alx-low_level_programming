@@ -2,8 +2,8 @@
 
 /**
  * _memcpy - copy memory area
- * @dest: char array 
- * @src: char array 
+ * @dest: char array
+ * @src: char array
  * @n: no of elements to copy
  * Return: `dest`
  */
