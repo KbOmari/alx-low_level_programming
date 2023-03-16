@@ -17,7 +17,7 @@
 
 int main(int argc, char *argv[])
 {
-	int sum = 0;
+	int x = 0;
 	int i;
 
 	if (argc == 1) /* argc == 1 is the program name only*/
@@ -39,11 +39,11 @@ int main(int argc, char *argv[])
 		arg++;
 	}
 
-	sum += atoi(argv[i]); /* picks from for loop*/
+	x += atoi(argv[i]); /* picks from for loop*/
 
 
 	}
 
-	printf("%d\n", sum);
+	printf("%d\n", x);
 		return (0);
 }
