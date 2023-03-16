@@ -4,7 +4,11 @@
 #include <stdio.h>
 
 /**
+ *main - counts and cmd line arguments
  *
+ *@argc: counts cmd line arguments
+ *
+ *@argv: points to cmd line arguments
  *
  *Description: Adds postive command-line arg numbers
  *
@@ -24,7 +28,7 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)/*to loop through each argument*/
 	{
 		char *arg = argv[i];/*points to individual characters in argv[i] strings*/
-	
+
 	while (*arg)
 	{
 		if (!isdigit(*arg))/*checks if string is wholly numbers*/
@@ -34,7 +38,7 @@ int main(int argc, char *argv[])
 		}
 		arg++;
 	}
-	
+
 	sum += atoi(argv[i]); /* picks from for loop*/
 
 
